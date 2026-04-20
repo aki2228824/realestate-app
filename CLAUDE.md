@@ -1,25 +1,26 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+このファイルは、リポジトリ内のコードを扱う際に Claude Code (claude.ai/code) へ提供するガイダンスです。
 
-## Project Overview
+## プロジェクト概要
 
-Real estate application — `realestate-app`. Repository: https://github.com/aki2228824/realestate-app
+不動産アプリケーション — `realestate-app`
+リポジトリ: https://github.com/aki2228824/realestate-app
 
-## Git Operation Rules
+## Git 運用ルール
 
-**Push to GitHub on every code change.**
+**コードを変更するたびに GitHub へプッシュすること。**
 
-After every meaningful code change (new feature, bug fix, refactor, config update), run:
+機能追加・バグ修正・リファクタ・設定変更など、意味のある変更を行ったら必ず以下を実行する:
 
 ```bash
-git add <changed files>
-git commit -m "<descriptive message>"
+git add <変更したファイル>
+git commit -m "<変更内容を説明するメッセージ>"
 git push origin main
 ```
 
-- Always create commits with clear, descriptive messages in the language appropriate to the change.
-- Never batch unrelated changes into a single commit.
-- Push immediately after each commit — do not accumulate unpushed commits.
-- Remote: `https://github.com/aki2228824/realestate-app`
-- Default branch: `main`
+- コミットメッセージは変更内容が明確に伝わるように記述する。
+- 無関係な変更を1つのコミットにまとめない。
+- コミット後は即座にプッシュし、未プッシュのコミットを溜めない。
+- リモート: `https://github.com/aki2228824/realestate-app`
+- デフォルトブランチ: `main`
