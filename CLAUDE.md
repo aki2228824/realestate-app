@@ -53,6 +53,11 @@ VITE_SUPABASE_URL=...
 VITE_SUPABASE_ANON_KEY=...
 ```
 
+## デプロイ情報
+
+- 本番URL：https://realestate-app-blue-delta.vercel.app/
+- Supabaseプロジェクト名：realestate-app
+
 ## Git 運用ルール
 
 **コードを変更するたびに GitHub へプッシュすること。**
